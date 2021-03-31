@@ -104,7 +104,7 @@ public class WurstplusAutoCrystal extends WurstplusHack {
 
     WurstplusSetting render_damage = create("Render Damage", "RenderDamage", true);
 
-    // WurstplusSetting attempt_chain = create("Chain Mode", "CaChainMode", false);
+    WurstplusSetting attempt_chain = create("Chain Mode", "CaChainMode", false);
     WurstplusSetting chain_length = create("Chain Length", "CaChainLength", 3, 1, 6);
 
     private final ConcurrentHashMap<EntityEnderCrystal, Integer> attacked_crystals = new ConcurrentHashMap<>();
