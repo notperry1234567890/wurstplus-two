@@ -9,7 +9,7 @@ public enum WurstplusCategory {
 	WURSTPLUS_MISC ("Misc", "WurstplusMisc", false),
 	WURSTPLUS_GUI ("GUI", "WurstplusGUI", false),
 	WURSTPLUS_BETA ("Beta", "WurstplusBeta", false),
-	WURSTPLUS_HIDDEN ("Hidden", "WurstplusHidden", true);
+	WURSTPLUS_HIDDEN ("Hidden", "WurstplusHidden", false);
 
 	String name;
 	String tag;
